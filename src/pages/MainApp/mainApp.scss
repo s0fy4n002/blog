@@ -1,0 +1,14 @@
+.main-app-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important;
+    box-sizing: border-box;
+    
+    .content-wrapper{
+        max-width: 900px;
+        width: 100%;
+        flex: 1;
+        margin: auto;
+        
+    }
+}

@@ -1,0 +1,15 @@
+.area-daftar{
+    display: flex;
+    justify-content: center;
+
+    .daftar{
+        background-color: transparent;
+        
+        color: #000;
+        border: none;
+        outline: none;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

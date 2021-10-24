@@ -1,0 +1,52 @@
+.create-wrapper{
+    
+    .btnCreateBlog{
+        margin-top: 10px;
+        display: flex;    
+        justify-content: flex-end;
+        width: 100%;
+        ::before{
+            content: '';
+        }
+        
+        .createBlog{
+            background-color: rgb(92, 92, 230);
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(44, 44, 240);
+                transition: .2s ease-in-out;
+            }
+        }
+    }
+
+    .content-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .pagination{
+        display: flex;
+        max-width: 400px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+        .prevBtn, .nextBtn{
+            background-color: rgb(44, 44, 240);
+            &:hover{
+                background-color: rgb(20, 20, 219);
+            }
+            outline: none;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+            min-width: 90px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.blog-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+.area-button-save{
+    display: flex;
+    justify-content: space-between;
+    .button{
+        width: 100px;
+    }
+    .kembali{
+        background-color: orange;
+    }
+}

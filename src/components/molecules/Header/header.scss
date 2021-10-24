@@ -1,0 +1,20 @@
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0px 20px;
+    box-sizing: border-box !important;
+    align-items: center;
+    background-color: rgb(54, 19, 150);
+    
+    .keluar, .logo{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

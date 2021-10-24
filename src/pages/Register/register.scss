@@ -1,0 +1,45 @@
+.main-page{
+    display: flex;
+    height: 100vh;
+
+    .left{
+        flex: 1;
+        background-color: gray;
+        height: inherit;
+        img{
+            object-fit: cover;
+            height: inherit;
+            width: 100%;
+        }
+    }
+
+    .right{
+        width: 460px;
+        background-color: aqua;
+        height: inherit;
+        
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        .title{
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #2d2d2d;
+        }
+    }
+}
+.area-login{
+
+    display: flex;
+    justify-content: center;
+    .login{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
