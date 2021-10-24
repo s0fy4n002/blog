@@ -16,7 +16,7 @@ const CreateBlog = () => {
         data.append('title',title)
         data.append('content',content)
         data.append('image', image)
-        axios.post("https://yayanblog.herokuapp.com/", data, {
+        axios.post("https://yayanblog.herokuapp.com/post", data, {
             headers: {
                 'content-type': 'multipart/form-data'
             }
